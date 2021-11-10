@@ -9,4 +9,8 @@ public class EmailValidation {
     public boolean constainsCom(String emailString) {
         return emailString.contains(".com");
     }
+
+    public boolean validEmail(String emailString) {
+        return false;
+    }
 }
