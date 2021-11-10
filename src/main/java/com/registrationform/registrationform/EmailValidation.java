@@ -11,6 +11,6 @@ public class EmailValidation {
     }
 
     public boolean validEmail(String emailString) {
-        return false;
+        return emailString.contains("@") && emailString.contains(".com");
     }
 }
