@@ -6,6 +6,7 @@ public class TestEmail {
     @Test
     public void TestEmailWellFormed(){
         EmailValidation newEmail = new EmailValidation();
-        Assertions.assertTrue(newEmail.validEmail("louis@gmail.com"));
+        //check to make sure string is not empty and is only one value
+        Assertions.assertTrue(newEmail.validEmail("louis123@gmail.com kyle1@gmail.com"));
     }
 }
