@@ -7,6 +7,6 @@ public class TestEmail {
     public void TestEmailWellFormed(){
         EmailValidation newEmail = new EmailValidation();
         //Assertions.assertTrue(newEmail.constainsAT("louis@"));
-        Assertions.assertTrue(newEmail.constainsCom("louis@"));
+        Assertions.assertTrue(newEmail.constainsCom("louis@gmail.com"));
     }
 }
