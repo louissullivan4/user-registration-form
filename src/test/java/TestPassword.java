@@ -6,6 +6,6 @@ public class TestPassword {
     @Test
     public void TestPasswordLength(){
         PasswordValidation newPd = new PasswordValidation();
-        Assertions.assertTrue(newPd.validPdLen("abc123"));
+        Assertions.assertTrue(newPd.validPdLen("abc1234"));
     }
 }
