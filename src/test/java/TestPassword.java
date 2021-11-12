@@ -2,12 +2,14 @@ import com.registrationform.PasswordValidation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
+/**
+ * The type Test password.
+ */
 public class TestPassword {
-//    @Test
-//    public void TestPasswordLength(){
-//        PasswordValidation newPd = new PasswordValidation();
-//        Assertions.assertTrue(newPd.validPdLen("abc1234"));
-//    }
+
+    /**
+     * Test password contains special cases, letter and digit.
+     */
     @Test
     public void TestPasswordContainsVals(){
         PasswordValidation newPd = new PasswordValidation();

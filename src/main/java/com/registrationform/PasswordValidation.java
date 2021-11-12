@@ -1,6 +1,15 @@
 package com.registrationform;
 
+/**
+ * The type Password validation.
+ */
 public class PasswordValidation {
+    /**
+     * Valid password boolean.
+     *
+     * @param password the password
+     * @return the boolean
+     */
     public boolean validPassword(String password) {
         String specialCases = "(.*[*^&@!].*$)";
         boolean passValid;
