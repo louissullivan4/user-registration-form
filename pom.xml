@@ -81,7 +81,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.registrationform.registrationform/com.registrationform.registrationform.HelloApplication
+                                com.registrationform.registrationform/com.registrationform.FormApplication
                             </mainClass>
                         </configuration>
                     </execution>

@@ -1,4 +1,4 @@
-import com.registrationform.registrationform.EmailValidation;
+import com.registrationform.EmailValidation;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

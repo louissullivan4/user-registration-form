@@ -6,6 +6,6 @@ module com.registrationform.registrationform {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.registrationform.registrationform to javafx.fxml;
-    exports com.registrationform.registrationform;
+    opens com.registrationform to javafx.fxml;
+    exports com.registrationform;
 }

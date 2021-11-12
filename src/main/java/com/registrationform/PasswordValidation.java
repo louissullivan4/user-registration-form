@@ -1,4 +1,4 @@
-package com.registrationform.registrationform;
+package com.registrationform;
 
 public class PasswordValidation {
     public boolean validPassword(String password) {
