@@ -9,6 +9,9 @@ public class EmailValidation {
     /**
      * Valid email boolean.
      *
+     * Reference for Email Regex used:
+     * Mailtrap, 31/01/2020, Simple Email Validation in Java, https://mailtrap.io/blog/java-email-validation/
+     *
      * @param emailString the email string
      * @return the boolean
      */
