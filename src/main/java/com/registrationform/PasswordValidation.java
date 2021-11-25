@@ -15,6 +15,7 @@ public class PasswordValidation {
         boolean passValid;
         boolean passLetter = false;
         boolean passDigit= false;
+        boolean passSpecial = false;
         for (int i = 0; i < password.length(); i++){
             char passCharacter = password.charAt(i);
             if (Character.isLetter(passCharacter)) {
@@ -23,11 +24,14 @@ public class PasswordValidation {
             else if (Character.isDigit(passCharacter)) {
                 passDigit = true;
             }
-            if (passLetter && passDigit){
+            else if(specialCases.contains(Character.toString(passCharacter))) {
+                passSpecial = true;
+            }
+            if (passLetter && passDigit && passSpecial){
                 break;
             }
         }
-        passValid = passLetter && passDigit && password.length() >= 7 && password.matches(specialCases);
+        passValid = passLetter && passDigit && passSpecial && password.length() >= 7;
         return passValid;
     }
 }
